@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "SignUpForm";
+}
+
+<h1>Sign up here</h1>
+<div>
+    @ViewData["Message"]
+</div>
+
+<form method="post" action="/Mortgage/Thankyou">
+    First Name: <input type="text" name="FirstName"/> <br>
+    Last Name: <input type="text" name="LastName"/> <br />
+    ID: <input type="number" name="ID"/> <br />
+    <input type="submit"/> <br />
+</form>
+
